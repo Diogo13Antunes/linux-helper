@@ -10,9 +10,16 @@ To contribute to this project, you can submit a pull request (PR) for new featur
 
 ### **Commit Message Format**
 
-We follow a **structured commit message format** to ensure clarity and consistency in our version history. Here's the [**template**](.gitmessage) for each commit:
+We follow a **structured commit message format** to ensure clarity and consistency in our version history. Here's the [**template**](.github/.gitmessage) for each commit:
 
-1. **Type**: The nature of the change, for example, `feat`, `fix`, `docs`, `style`, `refactor`, `test`, or `chore`.
+1. **Types**:
+   - `feat`: A new feature or enhancement to existing functionality.
+   - `fix`: A bug fix or correcting an issue.
+   - `docs`: Changes or updates to documentation.
+   - `style`: Code style changes (e.g., formatting, indentation) that don't affect functionality.
+   - `refactor`: Code changes that neither fix a bug nor add a feature, but improve code structure or readability.
+   - `test`: Changes related to adding or updating tests.
+   - `chore`: Miscellaneous tasks, like dependency updates or maintenance work, that don't affect the app's functionality.
 
 2. **Scope**: The part of the project that is being changed, such as a specific script, automation process, or documentation.
 
@@ -25,6 +32,24 @@ We follow a **structured commit message format** to ensure clarity and consisten
 6. **Closes #<issue-number>**: If this commit fixes or addresses a particular issue, reference the issue number here (e.g., `Closes #123`).
 
 By following this format, it will be easier to understand the purpose of the changes at a glance, maintain a consistent history, and track issues effectively.
+
+#### Setup Commit Template
+
+1. Use this command to setup the commit template to this Git:
+
+   ```bash
+   git config commit.template .github/.gitmessage
+   ```
+
+2. To check use the following command:
+   ```bash
+   git config --get commit.template
+   ```
+
+   The output must be this:
+   ```txt
+   .github/.gitmessage
+   ```
 
 ---
 
@@ -84,43 +109,9 @@ Here's how you can phrase it in the **Contributors.md** file to make this clear:
 
 ---
 
-### How to Document Your Script
+### Documentation
 
-1. **Create a new Markdown file** in the repository, following this format:
-   - The file should be placed in the script folder (e.g., `script-name.md`).
-   - Use the following template to describe your script:
-
-```markdown
-### [Script Name](script-folder)
-
-**Purpose**: Briefly describe the purpose of the script.  
-**Key Features**:  
-- Feature 1
-- Feature 2
-- Feature 3
-
-**Location**: [script-folder/](script-folder)  
-**Documentation**: See the `README.md` in the `script-folder` for more details.
-```
-
-2. **Example**:
-
-```markdown
-### [Disk Cleanup Script](disk-cleanup)
-
-**Purpose**: Free up disk space by identifying and removing unnecessary files.  
-**Key Features**:  
-- Identifies temporary files, caches, and large logs.
-- Interactive mode for reviewing deletions.
-- Automation using the `-y` flag.  
-
-**Location**: [disk-cleanup/](disk-cleanup)  
-**Documentation**: See the `README.md` in the `disk-cleanup` folder for more details.
-```
-
-3. **Submit the Pull Request**:
-   - Include your new or updated Markdown file in the pull request along with the code changes.
-   - Ensure the script’s functionality is fully described and easy to follow for other contributors.
+For detailed documentation on how to use, customize, and contribute to the project, please refer to the [DOCS.md](docs/DOCS.md) file.
 
 ---
 
