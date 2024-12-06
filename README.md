@@ -39,3 +39,13 @@ We welcome contributions to improve the collection of Linux automation scripts! 
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## All Contributors
+
+<div>
+   <a href="https://github.com/Diogo13Antunes">
+      <img src="https://contrib.rocks/image?repo=Diogo13Antunes/linux-helper" />
+   </a>
+</div>
