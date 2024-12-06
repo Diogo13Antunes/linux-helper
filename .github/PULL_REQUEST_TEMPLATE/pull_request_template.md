@@ -1,3 +1,13 @@
+---
+
+name: Contribution Pull Request
+about: request the merge of a new feature, a bug fix, or a change to improve the repository.
+title: "[CONTRIBUTION MERGE] - [Short description]"
+labels: enhancement
+assignees: ''
+
+---
+
 ### Description
 
 Please provide a clear and concise description of what your pull request does. Include details such as:
