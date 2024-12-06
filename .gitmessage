@@ -1,0 +1,7 @@
+<type>(<scope>): <short description>
+
+<long description>
+
+<BREAKING CHANGE> (if applicable)
+
+Closes #<issue-number> (if applicable)
