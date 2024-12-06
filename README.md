@@ -7,12 +7,26 @@ A collection of useful Linux scripts to automate tasks, improve productivity, an
 ## Table of Contents
 
 - [Scripts Overview](#scripts-overview)
+   - [Disk Cleanup Script](#disk-cleanup-script)
 - [Contributing](#contributing)
 - [License](#license)
 
 ---
 
 ## Scripts Overview
+
+### [Disk Cleanup Script](scripts/disk-cleanup)
+
+**Purpose**: Free up disk space by identifying and removing unnecessary files.
+
+**Key Features**:
+- Identifies temporary files, caches, and large logs.
+- Interactive mode for reviewing deletions.
+- Automation using the `-y` flag.  
+
+**Location**: [scripts/disk-cleanup/](scripts/disk-cleanup)  
+
+**Documentation**: See the `README.md` in the `disk-cleanup` folder for more details.
 
 ---
 
