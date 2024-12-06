@@ -6,6 +6,27 @@ Welcome! Thank you for your interest in contributing to our collection of useful
 
 To contribute to this project, you can submit a pull request (PR) for new features, bug fixes, or enhancements. When submitting a pull request, make sure your changes are clearly documented and follow the structure provided below.
 
+### **Folder Schema**
+
+```txt
+scripts
+└── <script-name>
+    ├── <script-name>.md
+    ├── <script-name>.sh
+    └── README.md
+```
+
+### **Folder and Files Creation**
+
+Run the following commands to create all needed folders and files:
+
+```bash
+script_name=<script-name> && mkdir "$script_name" && cd "$script_name" && touch "$script_name.sh" "$script_name.md" README.md
+```
+
+> Replace `<script-name>` for the name of your script.
+> Run inside **scripts** folder.
+
 ---
 
 ### **Commit Message Format**
