@@ -68,7 +68,7 @@ The Firefox Private Browsing icon is not installed.
 ## Customization
 
 The following can be customized:
-- **Icon URL**: The URL for the Firefox icon is currently set to a Mozilla-specific URL. You can change the URL to any other valid image URL if you prefer a different icon.
+- **Icon URL**: The URL for the Firefox icon is currently set to a Mozilla-specific URL. You can change the URL to any other valid image URL if you prefer a different icon at `ICON_URL`.
 
 The desktop entry file and icon file paths are set to default locations in the script. You can modify the paths by changing the `DESKTOP_FILE` and `ICON_PATH` variables in the script.
 
